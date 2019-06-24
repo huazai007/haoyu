@@ -1,4 +1,3 @@
-
 # a,定义一个父类Animal，在构造方法中封装三个属性，姓名，性别，年龄，
 # 再给其添加一个eat的方法，方法中显示%s正在吃饭（%s是哪个对象调用此方法，显示哪个对象名字）。
 # b,定义两个子类Person,Dog，全部继承这个父类Animal.
@@ -11,28 +10,25 @@
 # ④： 实例化一个狗类的对象，让其封装姓名，性别，年龄，毛色四个属性。
 # ⑤： 实例化一个人类的对象，让其只执行父类的eat方法（可以对人类代码进行修改）。
 # ⑥： 实例化一个狗类的对象，让其既执行父类的eat方法，又执行子类的eat方法。
-
 class Animal:
     def __init__(self,name,sex,age):
-        self.name = name
-        self.age = age
-        self.sex = sex
+        self.name=name
+        self.sex=sex
+        self.age=age
 
     def eat(self):
-        print('%s 在吃东西' % self.name)
-
+        print("{0}在吃饭".format(self.name))
 class Person(Animal):
     def __init__(self,name,sex,age,skin):
         super().__init__(name,sex,age)
-        self.skin = skin
+        self.skin=skin
     def eat(self):
-        print('人类正在吃饭')
-
+        print("人类正在吃饭")
 class Dog(Animal):
-    def __init__(self,coat_colour):
-        self.coat_colour = coat_colour
+    def __init__(self,name,sex,age,colour):
+        super().__init__(name,sex,age)
+        self.colour=colour
     def eat(self):
+        print("狗狗正在吃饭")
 
-        print('狗狗正在吃饭')
-p1 = Person('李富贵','男',18,'黄皮肤')
-print(p1.__dict__)
+
