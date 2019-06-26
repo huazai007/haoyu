@@ -15,6 +15,8 @@ class A:
 A.static_foo("haha")
 A.class_foo("hehe")
 
+#a1=A()
+#a1.foo()
 
 def aa(*args):
     print(args)

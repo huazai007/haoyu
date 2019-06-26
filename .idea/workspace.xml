@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="632aa4c3-18c3-404a-a51a-60bb4843114e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/面向对象/反射.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常用模块/t-logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常用模块/t_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常用模块/t_random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常用模块/t_re.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常用模块/序列化模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常用模块/时间模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面向对象/反射作业.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面向对象/staticmethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象/staticmethod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面向对象/反射.py" beforeDir="false" afterPath="$PROJECT_DIR$/面向对象/反射.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +22,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/haoyu$01.coverage" NAME="01 Coverage Results" MODIFIED="1561278638467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/haoyu$t.coverage" NAME="t Coverage Results" MODIFIED="1561373236087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
+    <SUITE FILE_PATH="coverage/haoyu$t_collections.coverage" NAME="t_collections Coverage Results" MODIFIED="1561515818772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块" />
+    <SUITE FILE_PATH="coverage/haoyu$t_re.coverage" NAME="t_re Coverage Results" MODIFIED="1561532197238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块" />
     <SUITE FILE_PATH="coverage/haoyu$class02.coverage" NAME="class02 Coverage Results" MODIFIED="1561348920640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
     <SUITE FILE_PATH="coverage/haoyu$filter.coverage" NAME="filter Coverage Results" MODIFIED="1561287571660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/haoyu$classmethod.coverage" NAME="classmethod Coverage Results" MODIFIED="1561429816559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
@@ -21,36 +31,38 @@
     <SUITE FILE_PATH="coverage/haoyu$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1561298442954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/haoyu$class01.coverage" NAME="class01 Coverage Results" MODIFIED="1561344134604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
     <SUITE FILE_PATH="coverage/haoyu$map.coverage" NAME="map Coverage Results" MODIFIED="1561287167449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
-    <SUITE FILE_PATH="coverage/haoyu$staticmethod.coverage" NAME="staticmethod Coverage Results" MODIFIED="1561433659031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
+    <SUITE FILE_PATH="coverage/haoyu$staticmethod.coverage" NAME="staticmethod Coverage Results" MODIFIED="1561445868117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
+    <SUITE FILE_PATH="coverage/haoyu$t_random.coverage" NAME="t_random Coverage Results" MODIFIED="1561520986929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块" />
+    <SUITE FILE_PATH="coverage/haoyu$t_logging.coverage" NAME="t-logging Coverage Results" MODIFIED="1561537384247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块" />
     <SUITE FILE_PATH="coverage/haoyu$sorted.coverage" NAME="sorted Coverage Results" MODIFIED="1561288367228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/haoyu$class03.coverage" NAME="class03 Coverage Results" MODIFIED="1561370987164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
-    <SUITE FILE_PATH="coverage/haoyu$.coverage" NAME="反射 Coverage Results" MODIFIED="1561445108940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
+    <SUITE FILE_PATH="coverage/haoyu$.coverage" NAME="序列化模块 Coverage Results" MODIFIED="1561522751727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/常用模块/序列化模块.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/常用模块/t_re.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/面向对象/反射.py">
+        <entry file="file://$PROJECT_DIR$/常用模块/t-logging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10/t.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10/sorted.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="146">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -91,14 +103,22 @@
         <option value="$PROJECT_DIR$/面向对象/classmethod.py" />
         <option value="$PROJECT_DIR$/面向对象/staticmethod.py" />
         <option value="$PROJECT_DIR$/面向对象/反射.py" />
+        <option value="$PROJECT_DIR$/面向对象/反射作业.py" />
+        <option value="$PROJECT_DIR$/常用模块/collections.py" />
+        <option value="$PROJECT_DIR$/常用模块/t_collections.py" />
+        <option value="$PROJECT_DIR$/常用模块/时间模块.py" />
+        <option value="$PROJECT_DIR$/常用模块/t_random.py" />
+        <option value="$PROJECT_DIR$/常用模块/序列化模块.py" />
+        <option value="$PROJECT_DIR$/常用模块/t_re.py" />
+        <option value="$PROJECT_DIR$/常用模块/t-logging.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="47" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-51" />
+    <option name="y" value="29" />
     <option name="width" value="1356" />
-    <option name="height" value="555" />
+    <option name="height" value="395" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -118,7 +138,7 @@
             <path>
               <item name="haoyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="haoyu" type="462c0819:PsiDirectoryNode" />
-              <item name="面向对象" type="462c0819:PsiDirectoryNode" />
+              <item name="常用模块" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,8 +166,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.反射">
-    <configuration name="反射" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.t-logging">
+    <configuration name="序列化模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="haoyu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,12 +175,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象/反射.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/序列化模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="classmethod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="时间模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="haoyu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,12 +197,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象/classmethod.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/时间模块.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="property" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="t-logging" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="haoyu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,12 +219,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象/property.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/t-logging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="staticmethod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="t_random" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="haoyu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,12 +241,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面向对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面向对象/staticmethod.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/t_random.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,7 +255,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="t_re" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="haoyu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,12 +263,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/t.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/t_re.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.反射" />
-        <item itemvalue="Python.staticmethod" />
-        <item itemvalue="Python.classmethod" />
-        <item itemvalue="Python.property" />
-        <item itemvalue="Python.t" />
+        <item itemvalue="Python.t-logging" />
+        <item itemvalue="Python.t_re" />
+        <item itemvalue="Python.序列化模块" />
+        <item itemvalue="Python.t_random" />
+        <item itemvalue="Python.时间模块" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +298,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561197402100</updated>
       <workItem from="1561197403590" duration="4375000" />
-      <workItem from="1561201812932" duration="56192000" />
+      <workItem from="1561201812932" duration="77516000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1561198821196</created>
@@ -382,18 +402,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60567000" />
+    <option name="totallyTimeSpent" value="81891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <frame x="-51" y="29" width="1356" height="395" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25341427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25688073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29801324" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8217054" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.16887417" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32945737" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" weight="0.95033115" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924126" weight="0.6085271" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.76744187" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553517" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8255814" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,14 +445,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3294702" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007587" side_tool="true" weight="0.95033115" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924126" weight="0.3294702" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924126" weight="0.6124031" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3294702" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -502,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象/staticmethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/面向对象/class04.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -544,17 +580,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象/staticmethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971764/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="167" column="4" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
+        <state relative-caret-position="167">
+          <caret line="2925" column="8" selection-start-line="2925" selection-start-column="8" selection-end-line="2925" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面向对象/反射作业.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="70" column="6" lean-forward="true" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/面向对象/反射.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="192">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用模块/t_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用模块/时间模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用模块/t_random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用模块/序列化模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2089" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用模块/t_re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用模块/t-logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

@@ -6,8 +6,8 @@ class Student:
         self.name=name
 
     @classmethod
-    def check_course(cls):
-        print('查看课程了')
+    def check_course(cls,values):
+        print('查看课程了 %s' %(values))
 
     @staticmethod
     def login():
@@ -26,7 +26,7 @@ s1=Student("haoyu")
 
 num = input('num:>>> ')
 
-if hasattr(s1,num):
-    #getattr(Student,num)()
-    getattr(s1,num)()
+if hasattr(Student,num):
+    getattr(Student,num)("xxx")
+    #getattr(s1,num)()
 
