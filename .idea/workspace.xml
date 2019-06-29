@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="632aa4c3-18c3-404a-a51a-60bb4843114e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/网络编程/c.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/ftp/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/ftp/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/qq聊天/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/qq聊天/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/s.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/时间服务器/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/时间服务器/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/线程/内存数据的共享问题.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/线程/创建线程的方式2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/线程/多线程与多进程/pid的比较.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/线程/多线程与多进程/开启效率的较量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/线程/多线程实现socket/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/线程/多线程实现socket/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/线程/线程的创建方式1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/join.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/socket 并发聊天/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/socket 并发聊天/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/t.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/t2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/t3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/t4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/t5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/t6_加锁.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/多进程同时抢购余票.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/批量生产数据放入队列再批量获取结果.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/进程池之回调函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/进程池版本的聊天/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/进程池版本的聊天/client2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/进程池版本的聊天/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/进程池的同步调用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络编程/进程/进程池的异步调用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用/异步调用之map用法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用/异步调用之进程池.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程/线程/守护线程1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程/线程/守护线程2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程/线程/锁.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络编程/线程/锁2_科学家吃面.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,19 +32,20 @@
     <SUITE FILE_PATH="coverage/haoyu$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1561721365305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/进程/进程池版本的聊天" />
     <SUITE FILE_PATH="coverage/haoyu$t3.coverage" NAME="t3 Coverage Results" MODIFIED="1561705301168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/进程" />
     <SUITE FILE_PATH="coverage/haoyu$class01.coverage" NAME="class01 Coverage Results" MODIFIED="1561344134604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
-    <SUITE FILE_PATH="coverage/haoyu$map.coverage" NAME="map Coverage Results" MODIFIED="1561287167449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/haoyu$staticmethod.coverage" NAME="staticmethod Coverage Results" MODIFIED="1561445868117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
+    <SUITE FILE_PATH="coverage/haoyu$map.coverage" NAME="异步调用之map用法 Coverage Results" MODIFIED="1561799250057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用" />
     <SUITE FILE_PATH="coverage/haoyu$t_random.coverage" NAME="t_random Coverage Results" MODIFIED="1561520986929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块" />
     <SUITE FILE_PATH="coverage/haoyu$t_logging.coverage" NAME="t-logging Coverage Results" MODIFIED="1561537384247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块" />
-    <SUITE FILE_PATH="coverage/haoyu$.coverage" NAME="内存数据的共享问题 Coverage Results" MODIFIED="1561785891547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/线程" />
+    <SUITE FILE_PATH="coverage/haoyu$2_.coverage" NAME="锁2_科学家吃面 Coverage Results" MODIFIED="1561794270154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/线程" />
+    <SUITE FILE_PATH="coverage/haoyu$.coverage" NAME="异步调用之进程池 Coverage Results" MODIFIED="1561798329066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用" />
     <SUITE FILE_PATH="coverage/haoyu$pid.coverage" NAME="pid的比较 Coverage Results" MODIFIED="1561783710337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/线程/多线程与多进程" />
-    <SUITE FILE_PATH="coverage/haoyu$1.coverage" NAME="线程的创建方式1 Coverage Results" MODIFIED="1561784030217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/线程" />
+    <SUITE FILE_PATH="coverage/haoyu$1.coverage" NAME="守护线程1 Coverage Results" MODIFIED="1561789987160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/线程" />
     <SUITE FILE_PATH="coverage/haoyu$filter.coverage" NAME="filter Coverage Results" MODIFIED="1561287571660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
     <SUITE FILE_PATH="coverage/haoyu$classmethod.coverage" NAME="classmethod Coverage Results" MODIFIED="1561429816559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
     <SUITE FILE_PATH="coverage/haoyu$t5.coverage" NAME="t5 Coverage Results" MODIFIED="1561782568094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/进程" />
     <SUITE FILE_PATH="coverage/haoyu$server.coverage" NAME="server Coverage Results" MODIFIED="1561787106126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/线程/多线程实现socket" />
     <SUITE FILE_PATH="coverage/haoyu$c.coverage" NAME="c Coverage Results" MODIFIED="1561600018069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
-    <SUITE FILE_PATH="coverage/haoyu$2.coverage" NAME="创建线程的方式2 Coverage Results" MODIFIED="1561782922763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/线程" />
+    <SUITE FILE_PATH="coverage/haoyu$2.coverage" NAME="守护线程2 Coverage Results" MODIFIED="1561790687440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/线程" />
     <SUITE FILE_PATH="coverage/haoyu$join.coverage" NAME="join Coverage Results" MODIFIED="1561693706838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/进程" />
     <SUITE FILE_PATH="coverage/haoyu$s.coverage" NAME="s Coverage Results" MODIFIED="1561600010496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
     <SUITE FILE_PATH="coverage/haoyu$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1561694763409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/进程" />
@@ -80,29 +55,7 @@
     <SUITE FILE_PATH="coverage/haoyu$client__2_.coverage" NAME="client (2) Coverage Results" MODIFIED="1561623073508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程/ftp" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网络编程/线程/多线程实现socket/server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/网络编程/线程/多线程实现socket/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,12 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day10/装饰器.py" />
-        <option value="$PROJECT_DIR$/day10/t1.py" />
-        <option value="$PROJECT_DIR$/面向对象/class01.py" />
-        <option value="$PROJECT_DIR$/面向对象/class02.py" />
-        <option value="$PROJECT_DIR$/面向对象/class03.py" />
-        <option value="$PROJECT_DIR$/day10/t.py" />
         <option value="$PROJECT_DIR$/面向对象/property.py" />
         <option value="$PROJECT_DIR$/面向对象/class04.py" />
         <option value="$PROJECT_DIR$/面向对象/classmethod.py" />
@@ -173,14 +120,20 @@
         <option value="$PROJECT_DIR$/网络编程/线程/多线程与多进程/开启效率的较量.py" />
         <option value="$PROJECT_DIR$/网络编程/进程/t.py" />
         <option value="$PROJECT_DIR$/网络编程/线程/内存数据的共享问题.py" />
-        <option value="$PROJECT_DIR$/网络编程/线程/多线程实现socket/client.py" />
         <option value="$PROJECT_DIR$/网络编程/线程/多线程实现socket/server.py" />
+        <option value="$PROJECT_DIR$/网络编程/线程/多线程实现socket/client.py" />
+        <option value="$PROJECT_DIR$/网络编程/线程/守护线程1.py" />
+        <option value="$PROJECT_DIR$/网络编程/线程/守护线程2.py" />
+        <option value="$PROJECT_DIR$/网络编程/线程/锁.py" />
+        <option value="$PROJECT_DIR$/网络编程/线程/锁2_科学家吃面.py" />
+        <option value="$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用/异步调用之进程池.py" />
+        <option value="$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用/异步调用之map用法.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="229" />
+    <option name="x" value="88" />
+    <option name="y" value="282" />
     <option name="width" value="1356" />
     <option name="height" value="395" />
   </component>
@@ -203,32 +156,6 @@
               <item name="haoyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="haoyu" type="462c0819:PsiDirectoryNode" />
               <item name="网络编程" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="haoyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haoyu" type="462c0819:PsiDirectoryNode" />
-              <item name="网络编程" type="462c0819:PsiDirectoryNode" />
-              <item name="线程" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="haoyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haoyu" type="462c0819:PsiDirectoryNode" />
-              <item name="网络编程" type="462c0819:PsiDirectoryNode" />
-              <item name="线程" type="462c0819:PsiDirectoryNode" />
-              <item name="多线程实现socket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="haoyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haoyu" type="462c0819:PsiDirectoryNode" />
-              <item name="网络编程" type="462c0819:PsiDirectoryNode" />
-              <item name="进程" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="haoyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haoyu" type="462c0819:PsiDirectoryNode" />
-              <item name="网络编程" type="462c0819:PsiDirectoryNode" />
-              <item name="进程" type="462c0819:PsiDirectoryNode" />
-              <item name="socket 并发聊天" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="haoyu" type="b2602c69:ProjectViewProjectNode" />
@@ -261,30 +188,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.client">
-    <configuration name="开启效率的较量" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="haoyu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/线程/多线程与多进程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/线程/多线程与多进程/开启效率的较量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="内存数据的共享问题" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.异步调用之map用法">
+    <configuration name="锁" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="haoyu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,7 +202,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/线程/内存数据的共享问题.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/线程/锁.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="异步调用之进程池" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="haoyu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,12 +219,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/线程/多线程实现socket" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/线程/多线程实现socket/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用/异步调用之进程池.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,7 +233,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="守护线程2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="haoyu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -336,12 +241,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/线程/多线程实现socket" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/线程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/线程/多线程实现socket/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/线程/守护线程2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,7 +255,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="锁2_科学家吃面" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="haoyu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,12 +263,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/进程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/线程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/进程/t.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/线程/锁2_科学家吃面.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="异步调用之map用法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="haoyu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用/异步调用之map用法.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -374,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.client" />
-        <item itemvalue="Python.server" />
-        <item itemvalue="Python.内存数据的共享问题" />
-        <item itemvalue="Python.t" />
-        <item itemvalue="Python.开启效率的较量" />
+        <item itemvalue="Python.异步调用之map用法" />
+        <item itemvalue="Python.异步调用之进程池" />
+        <item itemvalue="Python.锁2_科学家吃面" />
+        <item itemvalue="Python.锁" />
+        <item itemvalue="Python.守护线程2" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +320,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561197402100</updated>
       <workItem from="1561197403590" duration="4375000" />
-      <workItem from="1561201812932" duration="120857000" />
+      <workItem from="1561201812932" duration="128955000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1561198821196</created>
@@ -497,7 +424,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125232000" />
+    <option name="totallyTimeSpent" value="133330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,9 +436,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="229" width="1356" height="395" extended-state="0" />
+    <frame x="88" y="282" width="1356" height="395" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25688073" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25688073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -542,46 +469,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/面向对象/反射.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用模块/t_collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用模块/时间模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用模块/t_random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用模块/序列化模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2089" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/常用模块/t_re.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -949,6 +836,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/线程/多线程实现socket/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/网络编程/线程/多线程实现socket/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -959,10 +853,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程/线程/多线程实现socket/client.py">
+    <entry file="file://$PROJECT_DIR$/网络编程/线程/守护线程2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="86">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/线程/守护线程1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/线程/锁2_科学家吃面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/线程/锁.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用/异步调用之进程池.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/网络编程/线程/concurrent.futuresr异步调用/异步调用之map用法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
