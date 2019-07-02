@@ -1,0 +1,75 @@
+学生表和课程表可以多对多
+
+一个学生可以学多门课程
+
+一门课程可以有多个学生: 多对多
+***
+一个学生对应一个班级
+
+一个班级对应多个学生: 一对多
+***
+一个老师对应多个学生
+
+多个学生对应一个老师:一对多
+***
+一个老师教一门课
+
+一门课对应一个老师: 一对一
+
+1. 一对多(foreign key):
+学生表要关联班级表,多个学生属于一个班级. 班级是被关联的表.
+create table class(
+id int primary key auto_increment,
+caption  char(20)
+);
+
+insert into class(caption) values('三年二班'),('一年三班'),('三年一班');
+
+create table student (
+id int primary key into_increment,
+name varchar(20),
+sex enum('male','famale') default 'male',
+class_id int,
+foreign key(class_id) references class(id)
+);
+
+insert into sudent(name,class_id) values ('钢弹',1),('铁锤',1),('山炮',2);
+
+#对这个班级来说,一门课程只有一个老师,一个老师只会教一门课程. 所以是一对一的关系
+
+create table teacher(
+id int primary key auto_increment,
+name varchar(20)
+on delete cascade
+on update cascade
+);
+
+insert into teacher(name) value('ff'),('ff1'),('ff2');
+
+
+create table course (
+id int primary key auto_increment,
+name varchar(20),
+teacher_id int unique,
+foreign key(teacher_id) references teacher(id)
+);
+
+
+#一个学生可以学多门课程,一门课程可有有多个学生, 他们就是多对多的关系.
+create table student2course (
+id int primary key auto_increment,
+student_id int,
+course_id int,
+foreign key(student_id) references student(id)
+on delete cascade
+on update cascade,
+foreign key(course_id) references course(id)
+on delete cascade
+on update cascade,
+score int
+);
+
+insert into student2course (student_id,course_id,score) values(1,1,60),(1,2,59),(2,2,100);
+
+
+

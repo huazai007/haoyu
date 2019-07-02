@@ -1,0 +1,51 @@
+1、查询男生、女生的人数；
+select  gender,group_concat(sname),count(sname)from student group by gender
+
+2、查询姓“张”的学生名单；
+select sname from student where sname like "张%";
+
+3、课程平均分从高到低显示
+select c.cname,avg(s.num) as num from score as s left join course as c on s.course_id=c.cid group by c.cname order by avg(s.
+                       -> num) desc;
+
+4、查询有课程成绩小于60分的同学的学号、姓名；
+
+select c.cname,group_concat(s.student_id,':',st.sname) as student_id_sname from score as s left join course as c on s.course
+                       -> _id=c.cid left join student as st on st.sid=s.student_id where s.num<60 group by c.cname;
+
+5、查询至少有一门课与学号为1的同学所学课程相同的同学的学号和姓名；
+select group_concat(st.sid,st.sname),c.cname from student as st left join score as s on st.sid=s.student_id left join course
+                       ->  as c on s.course_id=c.cid where c.cname in (select c.cname from student as st left join score as s on st.sid=s.student_id l
+                       -> eft join course as c on s.course_id=c.cid where st.sid=2) group by c.cname
+
+6、查询出只选修了一门课程的全部学生的学号和姓名；
+select s.student_id,group_concat(st.sname)  from score as s right join student as st on st.sid=s.student_id group by s.stude
+                       -> nt_id having count(course_id)=1
+
+
+7、查询各科成绩最高和最低的分：以如下形式显示：课程ID，最高分，最低分；
+
+select c.cname,max(s.num),min(s.num) from score as s left join course as c on c.cid=s.course_id group by s.course_id
+
+8、查询课程编号“2”的成绩比课程编号“1”课程低的所有同学的学号、姓名；
+
+select A.student_id,st.sname,A.num as "数学",B.num as "物理" from (select student_id,num from score where course_id=1) as A 
+                       -> left join (select student_id,num from score where course_id=2) as B on A.student_id=B.student_id left join student as st on 
+                       -> st.sid=A.student_id where A.num>B.num
+
+
+9、查询“生物”课程比“物理”课程成绩高的所有学生的学号；
+
+
+10、查询平均成绩大于60分的同学的学号和平均成绩;
+
+11、查询所有同学的学号、姓名、选课数、总成绩；
+
+12、查询姓“李”的老师的个数；
+
+13、查询没学过“张磊老师”课的同学的学号、姓名；
+
+14、查询学过“1”并且也学过编号“2”课程的同学的学号、姓名；
+select s.student_id,st.sname from score as s left join student as st  on s.student_id=st.sid where course_id in (1,2) group 
+                       -> by s.student_id having count(s.course_id)>1;
+15、查询学过“李平老师”所教的所有课的同学的学号、姓名；
